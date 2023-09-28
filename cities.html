@@ -14,21 +14,7 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light border">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="cities.html">A Few Cities</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavDiv"
-            aria-controls="collapseNavDiv" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapseNavDiv">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-link active"><a href="basic.html">Basic</a></li>
-                <li class="nav-link"><a href="advanced.html">Advanced</a></li>
-        </div>
-    </div>
-    </div>
-</nav>
+  
     <style>
         
         p{
@@ -36,22 +22,37 @@
         }
 
     </style>
+    <nav class="navbar navbar-expand-md navbar-light bg-light border">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="cities.html">A Few Cities</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavDiv"
+              aria-controls="collapseNavDiv" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapseNavDiv">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-link active"><a href="basic.html">Basic</a></li>
+                  <li class="nav-link"><a href="advanced.html">Advanced</a></li>
+          </div>
+      </div>
+      </div>
+  </nav>
     <div class="container">
         <div class="row" style="color: blue;">
             <div class="col-sm-2">A</div>
             <div class="col-sm-2">L</div>
+            <div class="col-sm-2">L</div>
             <div class="col-sm-2">U</div>
             <div class="col-sm-2">G</div>
-            <div class="col-sm-2">R</div>
-            <div class="col-sm-2">I</div>
+            <div class="col-sm-2">A</div>
         </div>
         <div class="row" style="color: blue;">
             <div class="col-md">Ananthagiri hills</div>
             <div class="col-md">Ladakh</div>
+            <div class="col-md">London</div>
             <div class="col-md">Uttarpradesh</div>
             <div class="col-md">Goa</div>
-            <div class="col-md">Russia</div>
-            <div class="col-md">Italy</div>
+            <div class="col-md">Atlanta</div>
         </div>
         </div>
 
@@ -62,14 +63,14 @@
           <h1 class="display-6">City Images</h1>
           <img src="Goa.jpg" class="img-fluid" alt="Goa city" width="300" height="500">
           <img src="ladhakk.jpg" class="img-fluid" alt="Ladhak city" width="300" height="500">
-          <img src="Russia.jpg" class="img-fluid" alt="Russia city" width="300" height="500">
+          <img src="atlanta.jpg" class="img-fluid" alt="atlanta city" width="300" height="500">
       </div>
 
       <div class="container">
           <h1 class="display-6">City Images As Thumbnails </h1>
           <img src="Goa.jpg" class="img-thumbnail" alt="Goa city" width="300" height="400">
           <img src="ladhakk.jpg" class="img-thumbnail" alt="Ladhak city" width="300" height="400">
-          <img src="Russia.jpg" class="img-thumbnail" alt="Russia city" width="300" height="400">
+          <img src="atlanta.jpg" class="img-thumbnail" alt="atlanta city" width="300" height="400">
       </div>
       <br>
       <table class="table table-striped table-hover caption-top table-bordered">
@@ -97,6 +98,12 @@
                 <td>lemon Tree</td>
             </tr>
             <tr class="table-success">
+              <th scope="row">L</th>
+              <td>London</td>
+              <td>Laknavaam River</td>
+              <td>Leafy Tree</td>
+          </tr>
+            <tr class="table-success">
                 <th scope="row">U</th>
                 <td>Uttarpradesh</td>
                 <td>Union River</td>
@@ -109,68 +116,113 @@
                 <td>Guava Tree</td>
             </tr>
             <tr class="table-danger">
-                <th scope="row">R</th>
-                <td>Russia</td>
-                <td>RubicaRiver</td>
-                <td>Red Banana Tree</td>
-            </tr>
-            <tr class="table-warning">
-                <th scope="row">I</th>
-                <td>Italy</td>
-                <td>Indus River</td>
-                <td>LiamaTree</td>
+                <th scope="row">A</th>
+                <td>atlanta</td>
+                <td>Alabama River</td>
+                <td>Ashoka Tree</td>
             </tr>
         </tbody>
     </table>
     <br>
-    <label>Button</label>
-    <br>
-
     <div class="d-flex">
       <button type="button" class="btn btn-primary">A</button>
       <button type="button" class="btn btn-primary mx-2">L</button>
-      <button type="button" class="btn btn-primary">U</button>
-      <button type="button" class="btn btn-primary mx-2">G</button>
-      <button type="button" class="btn btn-primary">R</button>
-      <button type="button" class="btn btn-primary mx-2">I</button>
+      <button type="button" class="btn btn-primary">L</button>
+      <button type="button" class="btn btn-primary mx-2">U</button>
+      <button type="button" class="btn btn-primary">G</button>
+      <button type="button" class="btn btn-primary mx-2">A</button>
   </div>
   <br>
   <label>Button Groups</label>
   <br>
+  <label>Button</label>
+  <br>
 
-  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-      <div class="btn-group " role="group" aria-label="success group">
-      <button type="button" class="btn btn-success">A</button>
-      <button type="button" class="btn btn-success">L</button>
-      <button type="button" class="btn btn-success">U</button>
-      </div>
-      <div class="btn-group" role="group" aria-label="Warning group">    
-      <button type="button" class="btn btn-warning">G</button>
-      <button type="button" class="btn btn-warning">R</button>
-      </div>
-      <div class="btn-group" role="group" aria-label="Danger group">
-      <button type="button" class="btn btn-danger">I</button>
-      </div>
-      <br>
+    <div class="btn-toolbar" role="toolbar" aria-label="toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="1st group">
+            <button type="button" class="btn btn-success">A</button>
+            <button type="button" class="btn btn-success">L</button>
+            <button type="button" class="btn btn-success">L</button>
+        </div>
+        <div class="btn-group mx-2" role="group" aria-label="2nd group">
+            <button type="button" class="btn btn-warning">U</button>
+            <button type="button" class="btn btn-warning">G</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="3rd group">
+            <button type="button" class="btn btn-danger">A</button>
+        </div>
+    </div>
+  <br>
+
+  <div class="dropdown">
+    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">Dropdown button</button>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+        <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+    </ul>
+</div>
+<br><br>
+
+<form action="form.html">
+  <div class="form-control mb-3">
+      <label for="emailAddress">Email</label>
+      <input type="email" id="emailAddress" class="form-control" formControlName="email"
+          placeholder="example@gmail.com" required>
+  </div>
+  <div class="form-control mb-3">
+      <label for="City">City</label>
+      <input type="text" id="City" class="form-control" formControlName="City" placeholder="Enter your city"
+          required>
+  </div>
+  <div class="form-check mb-3">
+      <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" formControlName="subscribe"> Sign up for newsletter?
+      </label>
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+<br><br>
+
+<h3>Bonus</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="Goa.jpg" class="card-img-top" style="width: 18rem" alt="Image Not Found">
+            <div class="card-body">
+                <h5 class="card-title">Goa</h5>
+                <p class="card-text">Goa was a destination of choice for Indian and foreign tourists, particularly Britons and Russians,
+                   with limited means who wanted to vacation outside of their countries.</p>
+                <a href="https://en.wikipedia.org/wiki/Goa" class="btn btn-primary">know more</a>
+            </div><br>
+        </div>
+        </div>
+        <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="ladhakk.jpg" class="card-img-top" style="width: 18rem" alt="Image Not Found">
+            <div class="card-body">
+                <h5 class="card-title">ladhakk</h5>
+                <p class="card-text">Ladakh is most famous for breathtaking landscapes, the crystal clear skies, the highest mountain passes, thrilling adventure activities, Buddhist Monasteries and festivals</p>
+                <a href="https://en.wikipedia.org/wiki/ladhakk" class="btn btn-primary">know more</a>
+            </div><br>
+        </div>
+        </div>
+        <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="atlanta.jpg" class="card-img-top" style="width: 18rem" alt="Image Not Found">
+            <div class="card-body">
+                <h5 class="card-title">atlanta</h5>
+                <p class="card-text">Atlanta has been linked to the civil rights movement. Civil rights leaders moved forward; they were the visionaries who saw a new South, a new Atlanta. They believed in peace. They made monumental sacrifices for that peace</p>
+                <a href="https://en.wikipedia.org/wiki/atlanta" class="btn btn-primary">know more</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
 
 
-      <div class="dropdown">
-          <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">Dropdown button</button>
-          <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
-              <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
-          </ul>
-      </div>
-      <br><br>
-
-      
-
-      
-
-
-
-
+    
       
        
     
